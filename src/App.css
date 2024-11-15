@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #13b438;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #525252;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #838383;
+}
+
+button:hover {
+  background-color: #35cc56;
+}
+
+.pokemon-details {
+  text-align: center;
+}
+
+.pokemon-info div {
+  margin: 5px 0;
+}
+
+.pokemon-info {
+  margin-top: 20px;
+}
+
+.pokemon-image {
+  width: 150px;  
+  height: 150px; 
+  margin: 0 auto; 
+  display: block; 
+}
+
+.error {
+  color: rgb(128, 0, 0);
+  text-align: center;
+}
